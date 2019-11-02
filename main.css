@@ -34,7 +34,10 @@ p {
 }
 
 .album-art {
-
+	border: solid red;
+	float: left;
+	margin: 2em;
+	padding: 1em;
 }
 
 .clear {
@@ -43,11 +46,13 @@ p {
 
 .image-electronics, .image-stage-effects {
 	border: solid red;
+	float: left;
 	padding: 1em;
 }
 
 .record-label {
-	
+	color: red;
+	font-style: italic;
 }
 
 .track-list {
@@ -56,6 +61,8 @@ p {
 
 #about-photo {
 	border: solid red;
+	float: left;
+	margin: 1em;
 	padding: 1em;
 }
 
@@ -71,7 +78,7 @@ p {
 }
 
 #text-intro {
-	background: gray;
+	background: #494E4F;
 	border: solid red;
 	color: red;
 	padding: 1em;
